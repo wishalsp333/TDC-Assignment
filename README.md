@@ -18,8 +18,8 @@ docker run -d -p 80:8000 --name django-container simple-django-app
 
 Step 3:
 
-# Create (Distributed Publisher/Subscriber System with a Central Server)
-# GO TO DockerizedPubSubApp folder and run the following command
+Create (Distributed Publisher/Subscriber System with a Central Server)
+GO TO DockerizedPubSubApp folder and run the following command
 
 docker build -t pubsub-image:v1 
 docker run -d -p 80:80 --name pubsub_central pubsub-image:v1
